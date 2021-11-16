@@ -19,11 +19,11 @@
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: local(""), url('..//fonts/badaboom_bb.woff2') format('woff2');
+    src: local("Badaboom BB"), url('..//fonts/badaboom_bb.woff2') format('woff2');
 }
 
 body {
-    font-family: "Merriweather Sans", system-ui;
+    font-family: "Merriweather Sans", sans-serif, system-ui;
 }
 
 .wrapper {
@@ -31,9 +31,15 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    background: url("/img/bg.jpg") no-repeat;
 }
 
-.header {}
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
 
 .container {
     margin: 0 auto;
@@ -41,14 +47,24 @@ body {
 }
 
 .header__title {
-    font-family: "Badaboom AA";
+    font-family: "Badaboom BB";
     font-size: 70px;
     line-height: 100%;
     text-transform: uppercase;
     color: #FCC211;
 }
 
-.header__undertitle {}
+.header__undertitle {
+    font-family: "Merriweather Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 570px;
+    margin: 0 auto;
+}
 
 .header__button {}
 
