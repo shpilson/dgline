@@ -76,7 +76,6 @@ body {
     width: 244px;
     height: 50px;
     background: transparent;
-    outline: none;
     border: 0;
     background-image: url("/img/header-btn.svg");
     background-repeat: no-repeat;
@@ -92,15 +91,26 @@ body {
     background-image: url("/img/trolls.svg");
     background-repeat: no-repeat;
     background-position: top center;
+    margin-top: 30px;
 }
 
-.winners__characters {}
-
-.winners__character {}
-
-.winners__table {}
+.winners__table {
+    display: flex;
+    justify-content: center;
+}
 
 .winners__card {}
+
+.winners__card--1 {
+}
+
+.winners__card--2 {
+    padding-top: 49px;
+}
+
+.winners__card--3 {
+    padding-top: 49px;
+}
 
 .winners__userpic {}
 
