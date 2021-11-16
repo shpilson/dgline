@@ -32,7 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     background: url("/img/bg.jpg") no-repeat;
-    -moz-background-size: 100%; 
+    -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
@@ -69,6 +69,7 @@ body {
     color: #FFFFFF;
     max-width: 570px;
     margin: 0 auto;
+    padding: 0 50px;
 }
 
 .header__button {
@@ -81,9 +82,17 @@ body {
     background-repeat: no-repeat;
     margin-top: 15px;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
 }
 
-.winners {}
+.winners {
+    background-image: url("/img/trolls.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
 
 .winners__characters {}
 
