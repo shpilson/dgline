@@ -229,20 +229,29 @@ body {
     width: 100%;
     background: #FFFFFF;
     text-align: center;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .results-table-top {
-    border-radius: 10px 10px 0px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 105%;
+    color: #393535;
     height: 47px;
 }
 
 .results-table__list {
+    font-size: 12px;
+    line-height: 135%;
+    color: #05071A;
     height: 38px;
-    background: #F3F3F3;
+    background-color: #F3F3F3;
 }
 
 .results-table__list--grey {
     background: #DCDCDC;
 }
+
 
 .results-table__btn {}
