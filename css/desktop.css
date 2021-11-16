@@ -19,7 +19,7 @@
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: local("Badaboom"), url('../fonts/badabb.ttf') format('ttf');
+    src: local("Badaboom"), url('../fonts/AABadaBoom.ttf') format('ttf');
 }
 
 body {
@@ -41,13 +41,9 @@ body {
 }
 
 .header__title {
-    font-family: "Badaboom", sans-serif;
+    font-family: Badaboom;
     font-size: 70px;
     line-height: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FCC211;
 }
