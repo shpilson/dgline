@@ -99,9 +99,9 @@ body {
     justify-content: center;
 }
 
-.winners__card {}
-
-.winners__card--1 {
+.winners__card {
+    display: flex;
+    flex-direction: column;
 }
 
 .winners__card--2 {
@@ -118,7 +118,21 @@ body {
 
 .score__box {}
 
+.score__box--grey {
+    background-image: url("/img/score-bg.svg");
+    background-repeat: no-repeat;
+}
+
 .winners__username {}
+
+.winners__username--grey {
+    width: 105px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    background-image: url("/img/name-grey.svg");
+    background-repeat: no-repeat;
+}
 
 .score__text {}
 
