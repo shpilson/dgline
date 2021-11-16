@@ -15,11 +15,11 @@
 }
 
 @font-face {
-    font-family: "Badaboom";
+    font-family: "Badaboom BB";
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: local("Badaboom"), url('../fonts/AABadaBoom.ttf') format('ttf');
+    src: local(""), url('..//fonts/badaboom_bb.woff2') format('woff2');
 }
 
 body {
@@ -41,7 +41,7 @@ body {
 }
 
 .header__title {
-    font-family: Badaboom;
+    font-family: "Badaboom AA";
     font-size: 70px;
     line-height: 100%;
     text-transform: uppercase;
