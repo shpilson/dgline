@@ -127,7 +127,7 @@ body {
 }
 
 .score__box--grey {
-    background-image: url("/img/score-bg.svg");
+    background-image: url("/img/score-bg-grey.svg");
 }
 
 .score__box--gold {
@@ -162,11 +162,33 @@ body {
     background-image: url("/img/name-bronze.svg");
 }
 
-.score__text {}
+.score__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.score__text {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 130%;
+    color: #FFFAF3;
+}
 
 .score__text-bet {}
 
-.score__cush {}
+.score__cush {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FCC211;
+}
 
 .score__cush-bet {}
 
