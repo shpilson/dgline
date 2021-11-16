@@ -226,12 +226,23 @@ body {
 }
 
 .results-table__users {
-
+    width: 100%;
+    background: #FFFFFF;
+    text-align: center;
 }
 
 .results-table-top {
-    background: #FFFFFF;
     border-radius: 10px 10px 0px 0px;
+    height: 47px;
+}
+
+.results-table__list {
+    height: 38px;
+    background: #F3F3F3;
+}
+
+.results-table__list--grey {
+    background: #DCDCDC;
 }
 
 .results-table__btn {}
