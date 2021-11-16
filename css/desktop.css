@@ -13,3 +13,7 @@
     font-display: swap;
     src: local("Merriweather Sans"), url('../fonts/MerriweatherSans-Bold.ttf') format('ttf');
 }
+
+body {
+    font-family: "Merriweather Sans", system-ui;
+}
