@@ -14,6 +14,21 @@
     src: local("Merriweather Sans"), url('../fonts/MerriweatherSans-Bold.ttf') format('ttf');
 }
 
+@font-face {
+    font-family: "Badaboom";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: local("Badaboom"), url('../fonts/badabb.ttf') format('ttf');
+}
+
 body {
     font-family: "Merriweather Sans", system-ui;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
