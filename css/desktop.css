@@ -32,3 +32,62 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.header {}
+
+.container {
+    margin: 0 auto;
+    width: 828px;
+}
+
+.header__title {
+    font-family: "Badaboom", sans-serif;
+    font-size: 70px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FCC211;
+}
+
+.header__undertitle {}
+
+.header__button {}
+
+.winners {}
+
+.winners__characters {}
+
+.winners__character {}
+
+.winners__table {}
+
+.winners__card {}
+
+.winners__userpic {}
+
+.winners__image {}
+
+.score__box {}
+
+.winners__username {}
+
+.score__text {}
+
+.score__text-bet {}
+
+.score__cush {}
+
+.score__cush-bet {}
+
+.score__cush-win {}
+
+.results-table {}
+
+.results-table__title {}
+
+.results-table__users {}
+
+.results-table__btn {}
