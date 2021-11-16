@@ -112,23 +112,42 @@ body {
     padding-top: 49px;
 }
 
-.winners__userpic {}
+.winners__userpic {
+    height: 60%;
+}
 
 .winners__image {}
 
-.score__box {}
+.score__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
 
 .score__box--grey {
     background-image: url("/img/score-bg.svg");
-    background-repeat: no-repeat;
+}
+
+.score__box--gold {
+    background-image: url("/img/score-bg-gold.svg");
+}
+
+.score__box--bronze {
+    background-image: url("/img/score-bg-bronze.svg");
 }
 
 .winners__username {
     background-repeat: no-repeat;
-    width: 105px;
+    width: 104px;
     height: 30px;
     background: transparent;
     border: 0;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #05071A;
 }
 
 .winners__username--grey {
@@ -139,7 +158,7 @@ body {
     background-image: url("/img/name-gold.svg");
 }
 
-.winners__username--grey {
+.winners__username--bronze {
     background-image: url("/img/name-bronze.svg");
 }
 
