@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: local("Merriweather Sans"), url('../fonts/MerriweatherSans-Regular.ttf') format('ttf');
+    src: local("Merriweather Sans"), url('https://shpilson.github.io/dgline/fonts/MerriweatherSans-Regular.ttf') format('ttf');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local("Merriweather Sans"), url('../fonts/MerriweatherSans-Bold.ttf') format('ttf');
+    src: local("Merriweather Sans"), url('https://shpilson.github.io/dgline/fonts/MerriweatherSans-Bold.ttf') format('ttf');
 }
 
 @font-face {
@@ -19,7 +19,7 @@
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: local("Badaboom BB"), url('..//fonts/badaboom_bb.woff2') format('woff2');
+    src: local("Badaboom BB"), url('https://shpilson.github.io/dgline/fonts/badaboom_bb.woff2') format('woff2');
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background: url("/img/bg.jpg") no-repeat;
+    background: url("https://shpilson.github.io/dgline/img/bg.jpg") no-repeat;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
@@ -77,7 +77,7 @@ body {
     height: 50px;
     background: transparent;
     border: 0;
-    background-image: url("/img/header-btn.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/header-btn.svg");
     background-repeat: no-repeat;
     margin-top: 15px;
     cursor: pointer;
@@ -88,12 +88,12 @@ body {
 }
 
 .header__button:hover {
-    background-image: url("/img/hover-header-btn.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/hover-header-btn.svg");
     background-position: center;
 }
 
 .winners {
-    background-image: url("/img/trolls.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/trolls.svg");
     background-repeat: no-repeat;
     background-position: top center;
     margin-top: 30px;
@@ -138,15 +138,15 @@ body {
 }
 
 .score__box--grey {
-    background-image: url("/img/score-bg.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/score-bg.svg");
 }
 
 .score__box--gold {
-    background-image: url("/img/score-bg-gold.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/score-bg-gold.svg");
 }
 
 .score__box--bronze {
-    background-image: url("/img/score-bg-bronze.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/score-bg-bronze.svg");
 }
 
 .winners__username {
@@ -162,15 +162,15 @@ body {
 }
 
 .winners__username--grey {
-    background-image: url("/img/name-grey.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/name-grey.svg");
 }
 
 .winners__username--gold {
-    background-image: url("/img/name-gold.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/name-gold.svg");
 }
 
 .winners__username--bronze {
-    background-image: url("/img/name-bronze.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/name-bronze.svg");
 }
 
 .score__content {
@@ -265,19 +265,19 @@ tr {
 }
 
 .results-table__place--gold {
-    background-image: url("/img/place-gold.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/place-gold.svg");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .results-table__place--grey {
-    background-image: url("/img/place-grey.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/place-grey.svg");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .results-table__place--bronze {
-    background-image: url("/img/place-bronze.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/place-bronze.svg");
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -291,7 +291,7 @@ tr {
     height: 50px;
     background: transparent;
     border: 0;
-    background-image: url("/img/footer-btn.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/footer-btn.svg");
     background-repeat: no-repeat;
     background-position: center;
     margin: 28px auto 115px;
@@ -304,5 +304,5 @@ tr {
 }
 
 .results-table__btn:hover {
-    background-image: url("/img/hover-footer-btn.svg");
+    background-image: url("https://shpilson.github.io/dgline/img/hover-footer-btn.svg");
 }
