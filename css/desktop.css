@@ -215,6 +215,15 @@ body {
     flex-direction: column;
 }
 
+table {
+    border-collapse: collapse;
+    border: none;
+}
+
+tr {
+    border-bottom: 1px solid #1C181E;
+}
+
 .results-table__title {
     font-family: "Badaboom BB";
     font-size: 35px;
@@ -242,7 +251,7 @@ body {
 }
 
 .results-table-top-image {
-    object-position: 0 28px;
+    object-position: 0 30px;
 }
 
 .results-table__list {
@@ -257,5 +266,19 @@ body {
     background: #DCDCDC;
 }
 
-
-.results-table__btn {}
+.results-table__btn {
+    width: 260px;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    background-image: url("/img/footer-btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 28px auto 115px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    color: #05071A;
+    align-items: center;
+}
