@@ -303,5 +303,5 @@ tr {
 }
 
 .results-table__btn:hover {
-    filter: darkness(120%);
+    filter: drop-shadow(16px 16px 20px blue);
 }
