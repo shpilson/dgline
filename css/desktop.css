@@ -88,7 +88,8 @@ body {
 }
 
 .header__button:hover {
-
+    background-image: url("https://shpilson.github.io/dgline/img/hover-header-btn.svg");
+    background-position: center;
 }
 
 .winners {
