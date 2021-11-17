@@ -87,6 +87,10 @@ body {
     color: #FFFFFF;
 }
 
+.header__button:hover {
+    color: red;
+}
+
 .winners {
     background-image: url("/img/trolls.svg");
     background-repeat: no-repeat;
@@ -230,7 +234,7 @@ body {
     height: 100%;
     background: #FFFFFF;
     text-align: center;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     border-collapse: collapse;
 }
 
