@@ -303,5 +303,5 @@ tr {
 }
 
 .results-table__btn:hover {
-    background-image: url("https://shpilson.github.io/dgline/img/hover-footer-btn.svg");
+    filter: darkness(120%);
 }
