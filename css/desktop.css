@@ -92,6 +92,10 @@ body {
     transition: 0.7s;
 }
 
+.header__button:not(:hover) {
+    transition: 0.7s;
+}
+
 .winners {
     background-image: url("https://shpilson.github.io/dgline/img/trolls.svg");
     background-repeat: no-repeat;
