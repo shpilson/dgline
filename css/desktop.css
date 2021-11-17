@@ -241,6 +241,10 @@ body {
     height: 47px;
 }
 
+.results-table-top-image {
+    object-position: 0 28px;
+}
+
 .results-table__list {
     font-size: 12px;
     line-height: 135%;
