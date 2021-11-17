@@ -88,7 +88,8 @@ body {
 }
 
 .header__button:hover {
-    color: red;
+    background-image: url("/img/hover-header-btn.svg");
+    background-position: center;
 }
 
 .winners {
@@ -300,4 +301,8 @@ tr {
     line-height: 140%;
     color: #05071A;
     align-items: center;
+}
+
+.results-table__btn:hover {
+    background-image: url("/img/hover-footer-btn.svg");
 }
