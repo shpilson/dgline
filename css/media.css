@@ -33,6 +33,11 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     .wrapper {
         background-color: #000000;
+        background-image: url("https://shpilson.github.io/dgline/img/bg-tablets.jpg");
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
     }
 
     .container {
@@ -47,5 +52,5 @@
 
 /* Laptops */
 @media (min-width: 1024px) {
-    
+
 }
