@@ -51,7 +51,7 @@
 }
 
 /* Laptops + */
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
     .wrapper {
         background-color: #000000;
         background-image: url("https://shpilson.github.io/dgline/img/bg-tablets.jpg");
