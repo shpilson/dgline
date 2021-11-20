@@ -9,6 +9,6 @@
 /* Tablets */ 
 @media (max-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 1023px;
     }
 }
