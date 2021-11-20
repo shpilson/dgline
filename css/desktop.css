@@ -239,9 +239,6 @@ body {
     background: #FFFFFF;
     text-align: center;
     border-collapse: collapse;
-}
-
-.table-test {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -250,6 +247,14 @@ body {
 
 tr {
     border-bottom: 1px solid #1C181E;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
 }
 
 .results-table-top {
