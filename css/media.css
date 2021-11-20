@@ -1,7 +1,7 @@
 /* Mobile */ 
 @media (max-width: 320px) {
     .container {
-        max-width: none;
+        max-width: 320px;
         padding: 0 14px;
     }
 }
