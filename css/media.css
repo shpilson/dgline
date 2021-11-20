@@ -2,7 +2,7 @@
 
 @media (max-width: 425px) {
     .wrapper {
-        background: url("https://shpilson.github.io/dgline/img/bg-media.jpg") no-repeat;
+        background-color: #000;
         -moz-background-size: 100%;
         -webkit-background-size: 100%;
         -o-background-size: 100%;
