@@ -16,4 +16,8 @@
     .header__undertitle {
         margin: 20px auto;
     }
+
+    .winners__table {
+        flex-direction: column;
+    }
 }
