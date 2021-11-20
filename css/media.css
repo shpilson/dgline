@@ -18,7 +18,7 @@
     .winners__table {
         flex-direction: column;
     }
-    .winners_image {
+    .winners__image {
         margin: 0 auto;
     }
 }
