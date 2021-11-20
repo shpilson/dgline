@@ -22,4 +22,6 @@
     .winners__image {
         margin: 0 auto;
     }
-}
+    .results-table-top-image {
+        object-position: 0 10px;
+    }
