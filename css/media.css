@@ -1,5 +1,13 @@
-/* Mobile */ 
+/* Mobile */
+
 @media (max-width: 425px) {
+    .wrapper {
+        background: url("https://shpilson.github.io/dgline/img/bg-media.jpg") no-repeat;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
     .container {
         max-width: 320px;
         padding: 0 14px;
