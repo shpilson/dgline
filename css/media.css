@@ -1,6 +1,6 @@
 /* Mobile */
 
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
     .wrapper {
         background-color: #000;
         background-image: url("https://shpilson.github.io/dgline/img/bg-media4.jpg");
@@ -27,7 +27,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .wrapper {
         background-color: #000;
     }
