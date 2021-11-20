@@ -31,4 +31,9 @@
     .wrapper {
         background-color: #000;
     }
+
+    .container {
+        max-width: 768px;
+        padding: 0 14px;
+    }
 }
