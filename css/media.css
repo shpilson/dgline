@@ -36,4 +36,8 @@
         max-width: 768px;
         padding: 0 14px;
     }
+
+    .winners {
+        background-image: none;
+    }
 }
